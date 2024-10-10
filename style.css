@@ -1,0 +1,186 @@
+#googlelogo{
+
+    position: relative;
+    top: 250px;
+    left: 500px;
+    width: 500px;
+
+}
+
+#images{
+
+    display: inline;
+    position: relative;
+    top: 400px;
+    left: 320px;
+    width: 50px;
+    height: 50px;
+    animation-name:animationn;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+#facebooklogo{
+    width: 70px;
+    height: 70px;
+    margin-left: 90px;
+    transition: 300ms;
+}
+#facebooklogo:hover{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+
+
+}
+#youtubelogo{
+    width: 70px;
+    height: 70px;
+    margin-left: 90px;
+    transition: 300ms;
+}
+#youtubelogo:hover{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+
+
+}
+#chatgptlogo{
+    width: 70px;
+    height: 70px;
+    margin-left: 90px;
+    transition: 300ms;
+}
+#chatgptlogo:hover{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+
+
+}
+#maillogo{
+    width: 70px;
+    height: 70px;
+    margin-left: 90px;
+    transition: 300ms;
+}
+#maillogo:hover{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+
+
+}
+#newtonlogo{
+    width: 70px;
+    height: 70px;
+    transition: 300ms;
+    margin-left: 90px;
+}
+#newtonlogo:hover{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+
+
+}
+#q{
+    position: relative;
+    top: 270px;
+    left: 450px;
+    width: 500px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 40px 2px rgba(186, 186, 186, 0.52);
+    padding-inline-start: 50px;
+    padding-inline-end: 80px;
+    
+
+
+}
+
+@keyframes animationn{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 320px;
+    }
+}
+
+
+/* #label{
+    position: relative;
+} */
+#mic{
+    width: 13px;
+    height: 20px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 462px;
+    left: 1020px;
+
+}
+
+#search_icon{
+    width: 21px;
+    height: 21px;
+    color: rgba(108, 111, 114, 0.591);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 462px;
+    left: 475px;
+
+}
+
+#cam{
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 461px;
+    left: 1047px;
+
+}
+
+#q:focus{
+    position: relative;
+    top: 270px;
+    left: 450px;
+    width: 500px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 40px 2px rgba(186, 186, 186, 0.52);
+    padding-inline-start: 50px;
+    padding-inline-end: 80px;
+    outline: none;
+
+}
